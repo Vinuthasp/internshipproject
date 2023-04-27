@@ -108,9 +108,7 @@
                 <div class="card-box-a box">
                   <div class="img-box-a {% if forloop.counter == 1 %} card {% endif %}">
                     {% if forloop.counter == 1 %}
-                      <div class="ribbon">
-                        <span>lowest!</span>
-                      </div>
+                      
                     {% endif %}
                     <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal-{{forloop.counter}}" style="width:100%">
                       <img src="{{i.image}}" alt="" class="img-thumbnail" style="width:100%;height:180px;">
